@@ -14,6 +14,20 @@
 
 1. Use as little JavaScript as possible.
 
-### Tech choices
+## Tech choices
 
 ASP.NET Core, MongoDB, Docker, Google Cloud Run.
+
+## Development
+
+### Database
+
+#### Starting for the first time
+
+1. Execute `docker pull mongo` to pull MongoDB image from the Docker Hub.
+
+2. Execute `docker run -d --name mongoblogdevelop -p 27017:27017 mongo` to create and start a container named "mongoblogdevelop".
+
+#### After the first time
+
+1. Execute `docker start mongoblogdevelop`.
