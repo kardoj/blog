@@ -21,7 +21,7 @@ namespace Blog.Web.TestData
                 return;
             }
 
-            await _userManager.CreateAsync(new User("testuser", "test.user@ema.il"), "Password123!");
+            await _userManager.CreateAsync(new User("test.user@ema.il", "test.user@ema.il"), "Password123!");
         }
     }
 }
