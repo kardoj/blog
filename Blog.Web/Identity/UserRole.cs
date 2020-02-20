@@ -5,7 +5,7 @@ namespace Blog.Web.Identity
 {
     public class UserRole : MongoIdentityRole<Guid>
     {
-        public UserRole() : base() { }
+        public UserRole() { }
 
         public UserRole(string roleName) : base(roleName) { }
     }
