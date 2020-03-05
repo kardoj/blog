@@ -8,5 +8,10 @@ namespace Blog.Web.Controllers
         {
             return View();
         }
+
+        public IActionResult NewPost()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,25 @@
+﻿@{ 
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+</head>
+<body class="h-100">
+    @{ await Html.RenderPartialAsync("_Header"); }
+
+    <div class="new-post-container">
+        <div class="preview" id="preview"></div>
+        <div class="editor"><textarea id="editor-textarea"></textarea></div>
+    </div>
+
+    <script src="~/lib/markdown-it/markdown-it.min.js"></script>
+    <script src="~/lib/markdown-it-emoji/markdown-it-emoji-light.min.js"></script>
+    <script src="~/js/new-post.es5.min.js" asp-append-version="true"></script>
+</body>
+</html>

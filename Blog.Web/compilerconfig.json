@@ -2,5 +2,13 @@
   {
     "outputFile": "wwwroot/css/site.css",
     "inputFile": "wwwroot/css/site.scss"
+  },
+  {
+    "outputFile": "wwwroot/js/markdown-renderer.es5.js",
+    "inputFile": "wwwroot/js/markdown-renderer.js"
+  },
+  {
+    "outputFile": "wwwroot/js/new-post.es5.js",
+    "inputFile": "wwwroot/js/new-post.js"
   }
 ]

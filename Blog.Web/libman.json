@@ -96,6 +96,19 @@
         "scss/utilities/_visibility.scss",
         "scss/vendor/_rfs.scss"
       ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "markdown-it@10.0.0",
+      "destination": "wwwroot/lib/markdown-it/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "markdown-it-emoji@1.4.0",
+      "destination": "wwwroot/lib/markdown-it-emoji/",
+      "files": [
+        "markdown-it-emoji-light.min.js"
+      ]
     }
   ]
 }
