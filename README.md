@@ -31,3 +31,7 @@ ASP.NET Core, MongoDB, Docker, Google Cloud Run.
 #### After the first time
 
 1. Execute `docker start mongoblogdevelop`.
+
+### Sass
+
+`Web Compiler` extension is needed for Visual Studio to compile `.scss` files to `.css`.
